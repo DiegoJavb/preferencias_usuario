@@ -8,13 +8,20 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home screen'),
-      ),
-      drawer: const CustomDrawer(),
-      body: const Center(
-        child: Text('Home screen'),
-      ),
-    );
+        appBar: AppBar(
+          title: const Text('Home screen'),
+        ),
+        drawer: const CustomDrawer(),
+        body: const Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('is Darkmode:'),
+            Divider(),
+            Text('Género:'),
+            Divider(),
+            Text('Nombre de Usuario:'),
+            Divider(),
+          ],
+        ));
   }
 }
