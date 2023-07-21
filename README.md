@@ -1,6 +1,6 @@
 # preferences_app
 
-A new Flutter project.
+Esta App fue desarrollada con el fin de mantener los ajustes personalizados de los usuarios. Y así, tener persisténcia de esa información en el dispositivo aunque la App se cerrara de manera abrupta.
 
 https://github.com/DiegoJavb/preferencias_usuario/assets/42130200/8296c673-a241-4cef-a7ad-ea4851d64e76
 
